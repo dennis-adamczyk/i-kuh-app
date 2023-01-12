@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Kuh</title>
+  </head>
+  <body class="h-full">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+    <df-messenger
+      df-cx="true"
+      location="europe-west3"
+      chat-title="I Kuh"
+      agent-id="a77e1a5e-9623-4462-af1a-b8ffb6d66136"
+      language-code="de"
+      expand="true"
+      intent="start"
+    ></df-messenger>
+
+    <script type="module" src="/src/main.ts" defer></script>
+  </body>
+</html>
